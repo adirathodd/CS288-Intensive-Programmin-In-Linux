@@ -1,0 +1,39 @@
+Problem 1: (1.5 Points)
+For the first problem, let's keep things simple, the objective is to get you more familiar with bash
+syntax, by building a simple game that you may be already familiar with known as Rock, Paper,
+Scissors.
+The bash script should meet the following requirements:
+1. The script should allow two players to play, player 1 is the user and player 2 is the
+computer.
+2. The script should greet the players when it starts
+3. It should explain the rules of Rock Paper Scissors:
+3a. Rock beats scissors (by crushing them).
+3b. Scissors beat paper (by cutting it).
+3c. paper beats rock (by covering it).
+4. The script should allow the player to enter in their selection (use read command). You
+can assume the user will only type in rock, paper, or scissors (all lower-case).
+5. It should print out the computer’s selection, which should be random (hint: you can
+use the RANDOM environment variable along with '%' to limit the range, similar to
+Exercise three in class).
+6. Should declare a winner, or a tie.
+7. If there's a tie, the script should rematch until there's a winner
+Problem-2: (2.5 points)
+Write a Bash script that performs the following steps:
+1. Takes the name of a file or directory as an argument. If no argument is provided,
+prompt the user to enter the name.
+2. Determines whether the input is a file or a directory.
+3. If it's a directory:
+3a. Check if the user has read and execute permissions on the directory. If not,
+display a warning message.
+3b. Count the number of files and subdirectories within it.
+3c. If the user has the necessary permissions, display the list of all files and
+subdirectories along with their respective sizes.
+4. If it's a file:
+4a. Check if the user has read permission on the file. If not, display a warning
+message.
+4b. If the user has read permission, determine the word count, line count, and
+character
+count of the file. Based on the character count, categorize the file as follows:
+4c-1. "Text Heavy" if the character count is greater than 10,000.
+4c-2. "Moderately Sized" if thsfcsve character count is between 1,000 and 10,000.
+4c-3. “Light File" if the character count is less than 1,000.

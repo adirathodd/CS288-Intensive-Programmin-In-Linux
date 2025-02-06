@@ -1,0 +1,4 @@
+Problem 1: (1.5 Points)
+For the first problem, let's keep things simple, the objective is to get you more familiar with bash
+syntax, by building a simple game that you may be already familiar with known as Rock, Paper,
+Scissors.
